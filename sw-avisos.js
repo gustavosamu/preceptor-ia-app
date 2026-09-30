@@ -20,7 +20,8 @@ self.addEventListener('push', (event) => {
       await self.registration.showNotification(dados.titulo || 'HAMDocs', {
         body: dados.corpo || 'Saiu uma nota do seu grupo. Toque para ver.',
         icon: escopo + 'icone-192.png',
-        badge: escopo + 'icone-192.png',
+        // ícone da barra de status: o Android usa só o CONTORNO — branco sobre transparente (a linha de pulso do HAMDocs)
+        badge: escopo + 'icone-aviso.png',
         tag: dados.tag || 'hamdocs-nota',
         silent: true,
         data: { url: dados.url || escopo },
