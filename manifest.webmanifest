@@ -1,17 +1,38 @@
 {
-  "name": "HAMDocs",
-  "short_name": "HAMDocs",
-  "description": "Entrega da documentação clínica",
-  "start_url": "/entrega",
-  "scope": "/",
+  "name": "Preceptor.IA — Professor",
+  "short_name": "Preceptor",
+  "description": "Área do professor: cenários, correções, pré-testes e OSCE",
+  "id": "/preceptor-ia-app/",
+  "start_url": "/preceptor-ia-app/",
+  "scope": "/preceptor-ia-app/",
   "display": "standalone",
   "background_color": "#020617",
   "theme_color": "#020617",
   "lang": "pt-BR",
   "icons": [
-    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "/icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/preceptor-ia-app/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/preceptor-ia-app/icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/preceptor-ia-app/icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/preceptor-ia-app/icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
